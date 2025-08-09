@@ -27,6 +27,8 @@ public class MyFrame extends JFrame implements  ActionListener{
         label.setBackground(Color.white);
         label.setOpaque(true);
 
+        label.setToolTipText("click the button on right");
+
         button.addActionListener(this);
 
         this.add(button);
